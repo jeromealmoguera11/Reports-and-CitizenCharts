@@ -1,0 +1,387 @@
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: "Poppins", "Sora", Helvetica, sans-serif;
+}
+
+.hero {
+  min-height: 100%;
+  background: linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(/assets/HOF.jpg);
+  background-size: cover;
+}
+
+.hero-body {
+  padding-top: 200px !important;
+  height: 90vh;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.active {
+  background-color: transparent !important;
+  color: rgb(62, 199, 253) !important;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(62, 199, 253);
+}
+
+.navbar-menu .navbar-item:hover {
+  background-color: transparent !important;
+  color: rgb(62, 199, 253) !important;
+}
+
+.small {
+  font-size: small;
+}
+
+.is-justify {
+  text-align: justify;
+}
+
+.more {
+  color: rgb(224, 224, 224);
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: small;
+}
+
+.more:hover {
+  color: rgb(62, 199, 253);
+  background-color: black;
+  border: 1px solid rgb(62, 199, 253);
+  padding: 10px;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.events {
+  border: 2px solid white;
+}
+
+.cards {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.more-2 {
+  color: black;
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.more-2:hover {
+  color: black;
+  background-color: rgb(221, 221, 221);
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.contact-footer {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.email-foot {
+  color: rgb(62, 199, 253);
+}
+
+.email-foot:hover {
+  color: rgb(37, 136, 175);
+}
+.bowl {
+  margin: 0;
+  padding: 0;
+  height: 530px;
+  width: 100%;
+  background-color: rgba(42, 42, 197, 0.596),
+    linear-gradient(330deg, rgba(0, 0, 0, 1));
+}
+.burger {
+  width: 80%;
+  background-color: white;
+  height: 430px;
+  margin-left: 145px;
+  border-left-color: #000;
+  border-bottom-color: blue;
+  border-top-color: #000;
+  border-right-color: blue;
+  color: rgb(0, 0, 0);
+  margin-top: 2px;
+}
+
+.gutom {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 750px;
+  position: absolute;
+  top: 250px;
+}
+.ramen {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 10px;
+}
+.bowl img {
+  width: 670px;
+  height: 300px;
+  border-color: #000;
+  margin-top: 50px;
+  margin-left: 110px;
+}
+.burger p {
+  width: 400px;
+  text-align: justify;
+  position: absolute;
+  font-size: 15px;
+  top: 290px;
+  margin-left: 680px;
+}
+#header {
+  background: linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+    url(https://media.philstar.com/images/the-philippine-star/headlines/20150905/philippine-congress-1.jpg)
+      center center / cover no-repeat;
+}
+.btn.btn-outline-success.btn-sm {
+  color: blue;
+  border-left-color: #000;
+  border-top-color: blue;
+  border-bottom-color: black;
+  border-right-color: blue;
+}
+
+.btn.btn-outline-success.btn-sm:hover {
+  color: rgb(62, 199, 253);
+  background-color: rgba(0, 0, 0, 0.897);
+  border: 1px solid rgb(62, 199, 253);
+  padding: 10px;
+}
+#gallery {
+  background-color: rgba(26, 26, 138, 0.356);
+}
+.card-title {
+  color: rgba(0, 0, 255, 0.884);
+}
+.card-text {
+  text-align: justify;
+}
+.lead {
+  background-color: rgba(72, 72, 241, 0.308);
+}
+a {
+  color: #000000;
+}
+
+.citizen-char {
+  background-color: #ffffff;
+  padding-top: 1%;
+}
+
+.citizen-head {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  border-style: solid;
+  width: 600px;
+  margin: auto auto;
+}
+
+.citizen-rep {
+  color: #000000;
+  text-align: center;
+  font-size: 12px;
+}
+
+.citizen-pres {
+  color: #000000;
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+  margin-left: -60%;
+}
+
+/*
+
+.pres-des {
+  color: #000000;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.mandate {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.mandate-des {
+  color: #000000;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.mission {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 20px;
+}
+
+.mission-des {
+  color: #000000;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.vission {
+  font-family: Georgia;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 20px;
+}
+
+*/
+
+.col-mhead {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: -7%;
+}
+
+.col-head {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+
+.col-des {
+  font-size: 14px;
+  color: #000000;
+}
+
+.citizen-row {
+  padding-left: 10%;
+}
+
+.read-citi {
+  color: #000;
+  border-style: solid;
+  text-align: center;
+  width: 20%;
+  border-width: 2px;
+}
+
+.col-mainhead {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.col-mainhead2 {
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+}
+
+.col-maindes {
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+}
+
+.may-table {
+  background-color: #ffffff;
+}
+
+.table-title {
+  color: #000;
+}
+
+.guhit {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid rgb(0, 0, 0);
+  margin: 1em 0;
+}
+
+td {
+  color: #000;
+}
+
+.table-head {
+  background-color: rgb(143, 143, 143);
+}
+
+.trow-2 {
+  background-color: rgb(216, 216, 216);
+}
+
+tr {
+  text-align: center;
+}
+
+.content-table {
+  width: 100%;
+  height: 150%;
+}
+
+.baba-table1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+}
+
+.baba-table2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+}
+
+.baba2 {
+  color: #000;
+  text-align: center;
+}
+
+.baba2-head {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.baba2-p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -25px;
+}
+
+.pinaka-baba {
+  color: #000;
+  text-align: left;
+  padding-left: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.mas-baba {
+  color: #000;
+  margin: 10%;
+  margin-top: auto;
+}
